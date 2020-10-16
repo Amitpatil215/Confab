@@ -10,7 +10,7 @@ int str_len(char input[])
     }
     return count;
 }
-///
+
 void reverse(char textToReverse[])
 {
     int start = 0;
@@ -27,7 +27,7 @@ int main()
 {
     char text[20];
     cout << "Input your Text to reverse" << endl;
-    cin.getline(text,20);
+    cin.getline(text, 20);
     reverse(text);
     cout << text;
 }
